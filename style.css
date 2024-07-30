@@ -259,9 +259,13 @@ body {
 
 /*RESPONSIVIDADE*/
 
+/*1440px*/
+
 @media screen and (max-width: 1440px) {
     /*RESPONSIVIDADE OKE*/
 }
+
+/*1024px*/
 
 @media screen and (max-width: 1024px) {
     .banner img {
@@ -274,8 +278,8 @@ body {
 
 }
 
+/*768px*/
+
 @media screen and (max-width: 768px) {
-    .sobre {
-        
-    }
+    
 }
