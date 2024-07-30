@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "Josefin";
+    src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Shrikhand";
+    src: url(fonts/Shrikhand-Regular.ttf);
+}
+
+/*BANNER*/
+
+.banner img {
+    width: 100%;
+}
+
+/*CORPO*/
+
+body {
+    background-color: black; /* Define o fundo da página como preto */
+    color: white; /* Define a cor do texto como branca para contrastar */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+}
+
+/*SOBRE*/
+
+.sobre img {
+    width: 200px; /* Defina a largura desejada para a imagem */
+    height: 200px; /* Defina a altura desejada para a imagem */
+    border-radius: 50%; /* Torna a borda da imagem circular */
+    object-fit: cover; /* Mantém proporção e corta a imagem para caber no círculo */
+    
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
+
+}
+
+.sobre h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+
+    font-size: 35px;
+
+    font-family: "Shrikhand";
+
+    font-weight: 50;
+}
+
+.sobre p {
+    text-align: center;
+    font-size: 24px;
+
+    margin-left: 300px;  /* Ajuste conforme necessário */
+    margin-right: 300px; /* Ajuste conforme necessário */
+
+    font-family: "Josefin";
+}
+
+/*FORMACAO*/
+
+.formacao h1 {
+    text-align: center;
+
+    font-size: 35px;
+
+    font-family: "Shrikhand";
+
+    font-weight: 50;
+}
+
+.formacao p {
+    text-align: center;
+
+    margin-left: 300px;  /* Ajuste conforme necessário */
+    margin-right: 300px; /* Ajuste conforme necessário */
+
+    font-size: 24px;
+
+    font-family: "Josefin";
+}
+
+
+/*COMPETENCIAS*/
+
+.competencias h1{
+    text-align: center;
+
+    font-size: 35px;
+
+    font-family: "Shrikhand";
+
+    font-weight: 50;
+}
+
+.competencias img{
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
+
+    width: 600px;
+    height: 600px;
+}
+
+/*CERTIFICADOS*/
+
+.certificados h1{
+    text-align: center;
+
+    font-size: 35px;
+
+    font-family: "Shrikhand";
+
+    font-weight: 50;
+}
+
+.certificados p {
+    text-align: center;
+
+    margin-left: 300px;  /* Ajuste conforme necessário */
+    margin-right: 300px; /* Ajuste conforme necessário */
+
+    font-size: 24px;
+
+    font-family: "Josefin";
+}
+
+/*TRABALHOS*/
+
+.trabalhos h1{
+    text-align: center;
+
+    font-size: 35px;
+
+    font-family: "Shrikhand";
+
+    font-weight: 50;
+}
+
+.trabalhos img {
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
+
+    width: 800px;
+    height: 800px;
+}
+
+.folder img {
+    width: 800px;
+
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
+
+}
+
+.ecosoy img {
+    width: 800px;
+
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
+
+    margin-top: 25px;
+}
+
+/* MAIS */
+
+#mais {
+    display: flex;
+    justify-content: space-between;
+    /* Isso distribui os itens uniformemente, empurrando o texto para a esquerda e a imagem para a direita */
+    align-items: center;
+    /* Isso alinha verticalmente os itens ao centro */
+
+    margin: 60px;
+
+    margin-top: -50px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 100px;
+}
+
+#mais h2 {
+    font-size: 35px;
+
+    font-family: "Shrikhand";
+
+    font-weight: 50;
+}
+
+#mais p {
+    font-size: 24px;
+
+    font-family: "Josefin";
+}
+
+#mais img {
+    height: 300px;
+    width: 300px;
+
+    margin-left: 70px;
+
+    margin-top: 100px;
+}
+
+.fotos img {
+    width: auto;
+    height: 600px;
+
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
+
+    margin-top: -85px;
+}
+
+/*CONTATO*/
+
+.contato h1{
+    text-align: center;
+
+    font-size: 35px;
+
+    font-family: "Shrikhand";
+
+    font-weight: 50;
+    
+    margin-top: -60px;
+}
+
+.contato a {
+    color: #FF66C4; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+
+    font-size: 24px;
+
+    font-family: "Josefin";
+
+    display: flex;
+    justify-content: center;
+}
+
+.contato a:hover {
+    color: #FFDE59; /* Cor do link ao passar o mouse */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */ 
+
+    font-size: 24px;
+
+    font-family: "Josefin";
+}
+
+/*BANNER 2 */
+
+.banner2 img {
+    width: 100%;
+}
+
+/*DESIGN FINALIZADO*/
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 1440px) {
+    /*RESPONSIVIDADE OKE*/
+}
+
+@media screen and (max-width: 1024px) {
+    .banner img {
+        width: 1065px;
+    }
+    
+    .banner2 img {
+        width: 1065px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        
+    }
+}
