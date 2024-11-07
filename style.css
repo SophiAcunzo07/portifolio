@@ -96,9 +96,8 @@ body {
     display: block; /* Garante que a imagem seja tratada como um bloco */
     margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
 
-    width: 600px;
-    height: 600px;
-}
+    width: 80%;
+    }
 
 /*CERTIFICADOS*/
 
@@ -135,102 +134,45 @@ body {
     font-weight: 50;
 }
 
-.trabalhos img {
-    display: block; /* Garante que a imagem seja tratada como um bloco */
-    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
 
-    width: 600px;
-    height: 600px;
-}
-
-.folder img {
-    width: 600px;
-
-    display: block; /* Garante que a imagem seja tratada como um bloco */
-    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
-
-}
-
-.ecosoy img {
-    width: 600px;
-
-    display: block; /* Garante que a imagem seja tratada como um bloco */
-    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
-
-    margin-top: 20px;
-}
-
-.proteger img {
-    width: 600px;
+.tra img {
+    width: 80%;
 
     display: block; 
-    margin: 0 auto;
-
-    margin-top: 20px;
+    margin: 0 auto; 
 }
 
-.sublime img {
-    width: 600px;
+.beh h1{
+    text-align: center;
 
-    display: block; 
-    margin: 0 auto;
-
-    margin-top: 20px;
-}
-
-/* MAIS */
-
-/*
-#mais {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 60px;
-
-    margin-top: -50px;
-}
-
-.texto {
-    display: flex;
-    flex-direction: column;
-
-    margin-top: 100px;
-}
-
-#mais h2 {
     font-size: 35px;
 
     font-family: "Shrikhand";
 
-    font-weight: 50;
+    font-weight: 50px
+   /* margin-top: -60px;*/
 }
 
-#mais p {
+.beh a {
+    color: #FF66C4; 
+    text-decoration: none; 
+
+    font-size: 24px;
+
+    font-family: "Josefin";
+
+    display: flex;
+    justify-content: center;
+}
+
+.beh a:hover {
+    color: #FFDE59; 
+    text-decoration: underline; 
+
     font-size: 24px;
 
     font-family: "Josefin";
 }
-
-#mais img {
-    height: 300px;
-    width: 300px;
-
-    margin-left: 70px;
-
-    margin-top: 100px;
-}
-
-.fotos img {
-    width: auto;
-    height: 600px;
-
-    display: block;
-    margin: 0 auto;
-
-    margin-top: -85px;
-}
-*/
 
 /*CONTATO*/
 
@@ -241,10 +183,7 @@ body {
 
     font-family: "Shrikhand";
 
-    font-weight: 50;
-    
-   *
-   /* margin-top: -60px;*/
+    font-weight: 50px
 }
 
 .contato a {
