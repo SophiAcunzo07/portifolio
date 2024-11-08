@@ -50,8 +50,8 @@ body {
     text-align: center;
     font-size: 24px;
 
-    margin-left: 300px;  /* Ajuste conforme necessário */
-    margin-right: 300px; /* Ajuste conforme necessário */
+    margin-left: 300px;  
+    margin-right: 300px; 
 
     font-family: "Josefin";
 }
@@ -71,8 +71,8 @@ body {
 .formacao p {
     text-align: center;
 
-    margin-left: 300px;  /* Ajuste conforme necessário */
-    margin-right: 300px; /* Ajuste conforme necessário */
+    margin-left: 300px;  
+    margin-right: 300px; 
 
     font-size: 24px;
 
@@ -93,10 +93,10 @@ body {
 }
 
 .competencias img{
-    display: block; /* Garante que a imagem seja tratada como um bloco */
-    margin: 0 auto; /* Define margens superior e inferior como 0 e centraliza horizontalmente */
+    display: block; 
+    margin: 0 auto; 
 
-    width: 80%;
+    width: 60%;
     }
 
 /*CERTIFICADOS*/
@@ -114,8 +114,8 @@ body {
 .certificados p {
     text-align: center;
 
-    margin-left: 300px;  /* Ajuste conforme necessário */
-    margin-right: 300px; /* Ajuste conforme necessário */
+    margin-left: 300px;  
+    margin-right: 300px; 
 
     font-size: 24px;
 
@@ -136,7 +136,7 @@ body {
 
 
 .tra img {
-    width: 80%;
+    width: 70%;
 
     display: block; 
     margin: 0 auto; 
